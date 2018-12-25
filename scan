@@ -1,5 +1,5 @@
 #!/bin/bash
-# Coded by Monkey B Luffy (Florienzh4x)
+# Coded by Monkey B Luffy
 # https://github.com/florienzh4x
 # Special Thanks for Rinto AR
 
@@ -51,7 +51,7 @@ if [[ $pilihan -eq 1 ]]; then
 	    	break;
 	    else
 	    	if [[ $filter == 'y' || $filter == 'Y' ]]; then
-	    		Url=$(echo $Dorking | grep -Po 'http.?://[[:alnum:]_.-]+?\.[[:alpha:].]{2,10}/')
+	    		Url=$(echo $Dorking | grep -Po 'http.?://([[:alnum:]_.-]+?\.){1,5}[[:alpha:].]{2,10}/')
 			    echo ''"$Url"''
 			    echo "$Url" >> result.txt
 	    	else
@@ -81,7 +81,7 @@ elif [[ $pilihan -eq 2 ]]; then
 		    	break;
 		    else
 	    	if [[ $filter == 'y' || $filter == 'Y' ]]; then
-	    		Url=$(echo $Dorking | grep -Po 'http.?://[[:alnum:]_.-]+?\.[[:alpha:].]{2,10}/')
+	    		Url=$(echo $Dorking | grep -Po 'http.?://([[:alnum:]_.-]+?\.){1,5}[[:alpha:].]{2,10}/')
 			    echo ''"$Url"''
 			    echo "$Url" >> result.txt
 	    	else
