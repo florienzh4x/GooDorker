@@ -1,0 +1,2 @@
+"Index of" inurl:/js/
+"Index of" inurl:/js/ intext:"min.js"+"bootstrap"
