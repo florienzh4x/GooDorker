@@ -1,5 +1,4 @@
 # GooDorker | [![title](https://img.shields.io/badge/GooDorker-V1.0-blue.svg?style=popout)](https://github.com/florienzh4x/GooDorker/)
-<br>
 Automatic Google Dorker Bash Based
 
 ```bash
